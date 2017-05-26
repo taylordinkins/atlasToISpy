@@ -1,0 +1,310 @@
+{"Types": {"Event_V2": [["run", "int"],["event", "int"],["ls", "int"],["orbit", "int"],["bx", "int"],["time", "string"],["localtime", "string"]]
+,
+"Products_V1": [["Product", "string"]]
+,
+"BeamSpot_V1": [["pos", "v3d"],["xError", "double"],["yError", "double"],["zError", "double"]]
+,
+"CaloClusters_V1": [["energy", "double"],["pos", "v3d"],["eta", "double"],["phi", "double"],["algo", "string"]]
+,
+"RecHitFractions_V1": [["detid", "int"],["fraction", "double"],["front_1", "v3d"],["front_2", "v3d"],["front_3", "v3d"],["front_4", "v3d"],["back_1", "v3d"],["back_2", "v3d"],["back_3", "v3d"],["back_4", "v3d"]]
+,
+"CaloTowers_V2": [["et", "double"],["eta", "double"],["phi", "double"],["iphi", "double"],["hadEnergy", "double"],["emEnergy", "double"],["outerEnergy", "double"],["ecalTime", "double"],["hcalTime", "double"],["emPosition", "v3d"],["hadPosition", "v3d"],["front_1", "v3d"],["front_2", "v3d"],["front_3", "v3d"],["front_4", "v3d"],["back_1", "v3d"],["back_2", "v3d"],["back_3", "v3d"],["back_4", "v3d"]]
+,
+"CaloMETs_V1": [["phi", "double"],["pt", "double"],["px", "double"],["py", "double"],["pz", "double"]]
+,
+"CaloTaus_V1": [["eta", "double"],["phi", "double"],["pt", "double"],["charge", "double"],["leadTrackSignedSiPt", "double"],["leadTrackHCAL3x3HitsEtSum", "double"],["leadTrackHCAL3x3HottestHitDEta", "double"],["signalTracksInvariantMass", "double"],["TracksInvariantMass", "double"],["isolationTracksPtSum", "double"],["isolationECALHitsEtSum", "double"],["maximumHCALHitEt", "double"]]
+,
+"EBRecHits_V2": [["energy", "double"],["eta", "double"],["phi", "double"],["time", "double"],["detid", "int"],["front_1", "v3d"],["front_2", "v3d"],["front_3", "v3d"],["front_4", "v3d"],["back_1", "v3d"],["back_2", "v3d"],["back_3", "v3d"],["back_4", "v3d"]]
+,
+"EERecHits_V2": [["energy", "double"],["eta", "double"],["phi", "double"],["time", "double"],["detid", "int"],["front_1", "v3d"],["front_2", "v3d"],["front_3", "v3d"],["front_4", "v3d"],["back_1", "v3d"],["back_2", "v3d"],["back_3", "v3d"],["back_4", "v3d"]]
+,
+"ESRecHits_V2": [["energy", "double"],["eta", "double"],["phi", "double"],["time", "double"],["detid", "int"],["front_1", "v3d"],["front_2", "v3d"],["front_3", "v3d"],["front_4", "v3d"],["back_1", "v3d"],["back_2", "v3d"],["back_3", "v3d"],["back_4", "v3d"]]
+,
+"HBRecHits_V2": [["energy", "double"],["eta", "double"],["phi", "double"],["time", "double"],["detid", "int"],["front_1", "v3d"],["front_2", "v3d"],["front_3", "v3d"],["front_4", "v3d"],["back_1", "v3d"],["back_2", "v3d"],["back_3", "v3d"],["back_4", "v3d"]]
+,
+"HERecHits_V2": [["energy", "double"],["eta", "double"],["phi", "double"],["time", "double"],["detid", "int"],["front_1", "v3d"],["front_2", "v3d"],["front_3", "v3d"],["front_4", "v3d"],["back_1", "v3d"],["back_2", "v3d"],["back_3", "v3d"],["back_4", "v3d"]]
+,
+"HFRecHits_V2": [["energy", "double"],["eta", "double"],["phi", "double"],["time", "double"],["detid", "int"],["front_1", "v3d"],["front_2", "v3d"],["front_3", "v3d"],["front_4", "v3d"],["back_1", "v3d"],["back_2", "v3d"],["back_3", "v3d"],["back_4", "v3d"]]
+,
+"HORecHits_V2": [["energy", "double"],["eta", "double"],["phi", "double"],["time", "double"],["detid", "int"],["front_1", "v3d"],["front_2", "v3d"],["front_3", "v3d"],["front_4", "v3d"],["back_1", "v3d"],["back_2", "v3d"],["back_3", "v3d"],["back_4", "v3d"]]
+,
+"Jets_V1": [["et", "double"],["eta", "double"],["theta", "double"],["phi", "double"]]
+,
+"METs_V1": [["phi", "double"],["pt", "double"],["px", "double"],["py", "double"],["pz", "double"]]
+,
+"StandaloneMuons_V2": [["pt", "double"],["charge", "int"],["pos", "v3d"],["phi", "double"],["eta", "double"],["calo_energy", "double"]]
+,
+"GlobalMuons_V1": [["pt", "double"],["charge", "int"],["rp", "v3d"],["phi", "double"],["eta", "double"],["calo_energy", "double"]]
+,
+"Extras_V1": [["pos_1", "v3d"],["dir_1", "v3d"],["pos_2", "v3d"],["dir_2", "v3d"]]
+,
+"Points_V1": [["pos", "v3d"]]
+,
+"Photons_V1": [["energy", "double"],["et", "double"],["eta", "double"],["phi", "double"],["pos", "v3d"],["hadronicOverEm", "double"],["hadronicDepth1OverEcal", "double"],["hadronicDepth2OverEcal", "double"],["e1x5", "double"],["e2x5", "double"],["e3x3", "double"],["e5x5", "double"],["maxEnergyXtal", "double"],["sigmaEtaEta", "double"],["sigmaIetaIeta", "double"],["r1x5", "double"],["r2x5", "double"],["r9", "double"],["ecalRecHitSumEtConeDR04", "double"],["hcalTowerSumEtConeDR04", "double"],["hcalDepth1TowerSumEtConeDR04", "double"],["hcalDepth2TowerSumEtConeDR04", "double"],["trkSumPtSolidConeConeDR04", "double"],["trkSumPtHollowConeDR04", "double"],["nTrkSolidConeDR04", "int"],["nTrkHollowConeDR04", "int"],["ecalRecHitSumEtDR03", "double"],["hcalTowerSumEtDR03", "double"],["hcalDepth1TowerSumEtDR03", "double"],["hcalDepth2TowerSumEtDR03", "double"],["trkSumPtSolidConeDR03", "double"],["trkSumPtHollowConeDR03", "double"],["nTrkSolidConeDR03", "int"],["nTrkHollowConeDR03", "int"]]
+,
+"SuperClusters_V1": [["energy", "double"],["pos", "v3d"],["eta", "double"],["phi", "double"],["algo", "string"],["etaWidth", "double"],["phiWidth", "double"],["rawEnergy", "double"],["preshowerEnergy", "double"]]
+,
+"Tracks_V3": [["pos", "v3d"],["dir", "v3d"],["pt", "double"],["phi", "double"],["eta", "double"],["charge", "int"],["chi2", "double"],["ndof", "double"]]
+,
+"GsfElectrons_V2": [["pt", "double"],["eta", "double"],["phi", "double"],["charge", "int"],["pos", "v3d"],["dir", "v3d"]]
+,
+"TrackerMuons_V2": [["pt", "double"],["charge", "int"],["pos", "v3d"],["phi", "double"],["eta", "double"]]
+,
+"TriggerPaths_V1": [["Name", "string"],["Index", "int"],["WasRun", "int"],["Accept", "int"],["Error", "int"],["Objects", "string"]]
+,
+"TriggerObjects_V1": [["path", "string"],["slot", "int"],["moduleLabel", "string"],["moduleType", "string"],["VID", "int"],["KEY", "int"],["id", "int"],["pt", "double"],["eta", "double"],["phi", "double"],["mass", "double"]]
+,
+"Vertices_V1": [["isValid", "int"],["isFake", "int"],["pos", "v3d"],["xError", "double"],["yError", "double"],["zError", "double"],["chi2", "double"],["ndof", "double"]]
+},
+"Collections": {"Event_V2": [[146644, 719044414, 797, 208702590, 1107, "2010-Sep-25 22:17:39.454799 GMT", "Sat Sep 25 17:17:39 2010 CDT"]
+]
+,
+"Products_V1": [["BeamSpot recoBeamSpot:offlineBeamSpot::"], 
+["CaloClusters recoCaloClusters:hybridSuperClusters:hybridBarrelBasicClusters:"], 
+["CaloTowers CaloTowersSorted:towerMaker::"], 
+["CaloMETs recoCaloMETs:met::"], 
+["CaloTaus recoCaloTaus:caloRecoTauProducer::"], 
+["EBRecHits EcalRecHitsSorted:reducedEcalRecHitsEB::"], 
+["EERecHits EcalRecHitsSorted:reducedEcalRecHitsEE::"], 
+["ESRecHits EcalRecHitsSorted:reducedEcalRecHitsES::"], 
+["HBRecHits HBHERecHitsSorted:reducedHcalRecHits:hbhereco:"], 
+["HERecHits HBHERecHitsSorted:reducedHcalRecHits:hbhereco:"], 
+["HFRecHits HFRecHitsSorted:reducedHcalRecHits:hfreco:"], 
+["HORecHits HORecHitsSorted:reducedHcalRecHits:horeco:"], 
+["Jets recoCaloJets:ak7CaloJets::"], 
+["MET recoMETs:htMetIC5::"], 
+["Muons recoMuons:muons::"], 
+["Photons recoPhotons:photons::"], 
+["SuperClusters recoSuperClusters:correctedHybridSuperClusters::"], 
+["TrackExtrapolation recoTrackExtrapolation:trackExtrapolator::"], 
+["GsfElectrons recoGsfElectrons:trackExtrapolator::"], 
+["Muons recoMuons:trackExtrapolator::"], 
+["TriggerEvent triggerTriggerEvent:hltTriggerSummaryAOD::HLT  TriggerResults edmTriggerResults:TriggerResults::HLT"], 
+["Vertices recoVertexs:offlinePrimaryVertices::"]
+]
+,
+"BeamSpot_V1": []
+,
+"CaloClusters_V1": []
+,
+"RecHitFractions_V1": []
+,
+"CaloTowers_V2": []
+,
+"CaloMETs_V1": []
+,
+"CaloTaus_V1": []
+,
+"EBRecHits_V2": []
+,
+"EERecHits_V2": []
+,
+"ESRecHits_V2": []
+,
+"HBRecHits_V2": []
+,
+"HERecHits_V2": []
+,
+"HFRecHits_V2": []
+,
+"HORecHits_V2": []
+,
+"Jets_V1": [[19.171, 0.969065, 0.725311, -2.19973], 
+[8.11685, 2.85322, 0.115189, 0.951069], 
+[3.9665, 4.09326, 0.0333665, 2.91354]
+]
+,
+"METs_V1": []
+,
+"StandaloneMuons_V2": []
+,
+"GlobalMuons_V1": []
+,
+"Extras_V1": []
+,
+"Points_V1": []
+,
+"Photons_V1": []
+,
+"SuperClusters_V1": []
+,
+"Tracks_V3": [[[0.000891664, 0.000428676, -0.116276], [-0.573312, -0.0653464, 0.816727], 1.02973, -3.0281, 1.14691, -1, 37.0752, 19], 
+[[0.000914452, 0.000191303, -0.116191], [-0.386326, -0.561452, 0.731795], 3.11032, -2.17348, 0.93258, 1, 7.3751, 15], 
+[[0.000899908, 0.000186451, -0.116165], [0.0810704, -0.925185, 0.370757], 1.05868, -1.48339, 0.3893, -1, 5.62058, 17], 
+[[0.00101193, 0.000296506, -0.116199], [0.725383, -0.621627, -0.295635], 0.863306, -0.708524, -0.304729, -1, 19.0376, 14], 
+[[0.000910136, 0.000257489, -0.116359], [0.413955, 0.0531118, 0.908747], 1.07705, 0.127606, 1.52028, 1, 1.12893, 3], 
+[[0.000890272, 0.000225949, -0.11615], [0.759102, 0.577886, 0.299686], 1.20614, 0.650679, 0.309175, 1, 4.38149, 11], 
+[[0.00089467, 0.000208082, -0.116179], [0.471852, 0.576739, 0.666879], 1.16171, 0.885093, 0.805102, -1, 11.1041, 15], 
+[[0.000886284, 0.000211402, -0.116152], [0.574802, 0.809698, -0.118285], 1.30734, 0.953459, -0.118841, 1, 11.533, 16], 
+[[0.000900186, 0.000201119, -0.116207], [0.400323, 0.581978, -0.707844], 1.66294, 0.96826, -0.88285, -1, 3.55536, 9], 
+[[0.000974253, 0.000170886, -0.116139], [0.272385, 0.871915, -0.406904], 1.34017, 1.268, -0.431895, 1, 9.01382, 15], 
+[[0.00114102, 0.000146421, -0.116201], [0.155969, 0.829678, 0.536011], 0.796304, 1.38498, 0.598541, 1, 204.051, 15], 
+[[0.0011672, 0.000145641, -0.116306], [0.166107, 0.969982, -0.177606], 0.893878, 1.40119, -0.17951, -1, 88.9547, 15], 
+[[0.000962539, 0.000190214, -0.116137], [-0.0224543, 0.469217, 0.882797], 0.796596, 1.61861, 1.3883, 1, 14.5389, 25], 
+[[0.000927258, 0.000189927, -0.116145], [-0.211392, 0.963421, 0.164724], 1.56089, 1.78679, 0.166239, 1, 7.5542, 14], 
+[[0.000900302, 0.000211806, -0.116139], [-0.40925, -0.32445, 0.852788], 0.755215, -2.47126, 1.26628, 1, 2.44886, 5], 
+[[0.000766629, 3.13253e-05, 0.00918251], [0.468198, -0.518102, -0.715794], 1.09851, -0.835953, -0.898965, -1, 3.87251, 16], 
+[[-0.0326647, -0.0521279, -0.0572776], [0.839977, -0.539345, 0.0595391], 0.855885, -0.570798, 0.0596096, 1, 3.51693, 11]
+]
+,
+"GsfElectrons_V2": []
+,
+"TrackerMuons_V2": []
+,
+"TriggerPaths_V1": [["HLT_Activity_CSC", 0, 1, 0, 0, ""], 
+["HLT_Activity_DT", 1, 1, 0, 0, ""], 
+["HLT_Activity_DT_Tuned", 2, 1, 0, 0, ""], 
+["HLT_Activity_Ecal_SC7", 3, 1, 0, 0, ""], 
+["HLT_Activity_Ecal_SC17", 4, 1, 0, 0, ""], 
+["HLT_L1Jet6U", 5, 1, 0, 0, ""], 
+["HLT_L1Jet10U", 6, 1, 0, 0, ""], 
+["HLT_Jet15U", 7, 1, 0, 0, ""], 
+["HLT_Jet15U_HcalNoiseFiltered", 8, 1, 0, 0, ""], 
+["HLT_Jet30U", 9, 1, 0, 0, ""], 
+["HLT_Jet50U", 10, 1, 0, 0, ""], 
+["HLT_Jet70U", 11, 1, 0, 0, ""], 
+["HLT_Jet100U", 12, 1, 0, 0, ""], 
+["HLT_DiJetAve15U", 13, 1, 0, 0, ""], 
+["HLT_DiJetAve30U", 14, 1, 0, 0, ""], 
+["HLT_DiJetAve50U", 15, 1, 0, 0, ""], 
+["HLT_DiJetAve70U", 16, 1, 0, 0, ""], 
+["HLT_DoubleJet15U_ForwardBackward", 17, 1, 0, 0, ""], 
+["HLT_DoubleJet25U_ForwardBackward", 18, 1, 0, 0, ""], 
+["HLT_QuadJet15U", 19, 1, 0, 0, ""], 
+["HLT_QuadJet20U", 20, 1, 0, 0, ""], 
+["HLT_QuadJet25U", 21, 1, 0, 0, ""], 
+["HLT_L1ETT100", 22, 1, 0, 0, ""], 
+["HLT_EcalOnly_SumEt160", 23, 1, 0, 0, ""], 
+["HLT_L1MET20", 24, 1, 0, 0, ""], 
+["HLT_MET45", 25, 1, 0, 0, ""], 
+["HLT_MET65", 26, 1, 0, 0, ""], 
+["HLT_MET100", 27, 1, 0, 0, ""], 
+["HLT_HT100U", 28, 1, 0, 0, ""], 
+["HLT_HT120U", 29, 1, 0, 0, ""], 
+["HLT_HT140U", 30, 1, 0, 0, ""], 
+["HLT_L1MuOpen", 31, 1, 0, 0, ""], 
+["HLT_L1MuOpen_DT", 32, 1, 0, 0, ""], 
+["HLT_L1MuOpen_AntiBPTX", 33, 1, 0, 0, ""], 
+["HLT_L1Mu", 34, 1, 0, 0, ""], 
+["HLT_L1Mu20", 35, 1, 0, 0, ""], 
+["HLT_L2Mu0_NoVertex", 36, 1, 0, 0, ""], 
+["HLT_L2Mu0", 37, 1, 0, 0, ""], 
+["HLT_L2Mu3", 38, 1, 0, 0, ""], 
+["HLT_L2Mu9", 39, 1, 0, 0, ""], 
+["HLT_L2Mu25", 40, 1, 0, 0, ""], 
+["HLT_Mu3", 41, 1, 0, 0, ""], 
+["HLT_Mu5", 42, 1, 0, 0, ""], 
+["HLT_Mu7", 43, 1, 0, 0, ""], 
+["HLT_Mu9", 44, 1, 0, 0, ""], 
+["HLT_Mu11", 45, 1, 0, 0, ""], 
+["HLT_IsoMu9", 46, 1, 0, 0, ""], 
+["HLT_Mu20_NoVertex", 47, 1, 0, 0, ""], 
+["HLT_L1DoubleMuOpen", 48, 1, 0, 0, ""], 
+["HLT_L2DoubleMu0", 49, 1, 0, 0, ""], 
+["HLT_DoubleMu0", 50, 1, 0, 0, ""], 
+["HLT_DoubleMu3", 51, 1, 0, 0, ""], 
+["HLT_Mu0_L1MuOpen", 52, 1, 0, 0, ""], 
+["HLT_Mu3_L1MuOpen", 53, 1, 0, 0, ""], 
+["HLT_Mu5_L1MuOpen", 54, 1, 0, 0, ""], 
+["HLT_Mu0_L2Mu0", 55, 1, 0, 0, ""], 
+["HLT_Mu5_L2Mu0", 56, 1, 0, 0, ""], 
+["HLT_Mu0_Track0_Jpsi", 57, 1, 0, 0, ""], 
+["HLT_Mu0_TkMu0_OST_Jpsi", 58, 1, 0, 0, ""], 
+["HLT_Mu3_Track3_Jpsi", 59, 1, 0, 0, ""], 
+["HLT_Mu3_TkMu0_OST_Jpsi", 60, 1, 0, 0, ""], 
+["HLT_Mu5_Track0_Jpsi", 61, 1, 0, 0, ""], 
+["HLT_Mu5_TkMu0_OST_Jpsi", 62, 1, 0, 0, ""], 
+["HLT_L1SingleEG2", 63, 1, 0, 0, "-83/2 -83/3 "], 
+["HLT_L1SingleEG5", 64, 1, 0, 0, "-83/2 "], 
+["HLT_L1SingleEG8", 65, 1, 0, 0, "-83/2 "], 
+["HLT_L1DoubleEG5", 66, 1, 0, 0, ""], 
+["HLT_Ele10_SW_L1R", 67, 1, 0, 0, "-83/2 "], 
+["HLT_Ele12_SW_TightEleId_L1R", 68, 1, 0, 0, "-83/2 "], 
+["HLT_Ele12_SW_TightEleIdIsol_L1R", 69, 1, 0, 0, "-83/2 "], 
+["HLT_Ele12_SW_TightEleIdIsol_NoDEtaInEE_L1R", 70, 1, 0, 0, "-83/2 "], 
+["HLT_Ele17_SW_L1R", 71, 1, 0, 0, "-83/2 "], 
+["HLT_Ele17_SW_CaloEleId_L1R", 72, 1, 1, 0, "-83/2 92/0 "], 
+["HLT_Ele17_SW_LooseEleId_L1R", 73, 1, 1, 0, "-83/2 82/1 "], 
+["HLT_Ele17_SW_EleId_L1R", 74, 1, 0, 0, "-83/2 "], 
+["HLT_Ele22_SW_CaloEleId_L1R", 75, 1, 0, 0, "-83/2 "], 
+["HLT_Ele40_SW_L1R", 76, 1, 0, 0, "-83/2 "], 
+["HLT_DoubleEle4_SW_eeRes_L1R", 77, 1, 0, 0, ""], 
+["HLT_DoubleEle10_SW_L1R", 78, 1, 0, 0, ""], 
+["HLT_Photon10_Cleaned_L1R", 79, 1, 0, 0, "-83/2 "], 
+["HLT_Photon15_Cleaned_L1R", 80, 1, 0, 0, "-83/2 "], 
+["HLT_Photon20_NoHE_L1R", 81, 1, 0, 0, "-83/2 "], 
+["HLT_Photon20_Cleaned_L1R", 82, 1, 0, 0, "-83/2 "], 
+["HLT_Photon30_Cleaned_L1R", 83, 1, 0, 0, "-83/2 "], 
+["HLT_Photon50_NoHE_L1R", 84, 1, 0, 0, "-83/2 "], 
+["HLT_Photon50_NoHE_Cleaned_L1R", 85, 1, 0, 0, "-83/2 "], 
+["HLT_DoublePhoton5_CEP_L1R", 86, 1, 0, 0, ""], 
+["HLT_DoublePhoton5_L1R", 87, 1, 0, 0, ""], 
+["HLT_DoublePhoton10_L1R", 88, 1, 0, 0, ""], 
+["HLT_DoublePhoton15_L1R", 89, 1, 0, 0, ""], 
+["HLT_DoublePhoton17_L1R", 90, 1, 0, 0, ""], 
+["HLT_SingleIsoTau20_Trk5_MET20", 91, 1, 0, 0, ""], 
+["HLT_SingleIsoTau20_Trk15_MET20", 92, 1, 0, 0, ""], 
+["HLT_SingleIsoTau30_Trk5_MET20", 93, 1, 0, 0, ""], 
+["HLT_SingleIsoTau30_Trk5_L120or30", 94, 1, 0, 0, ""], 
+["HLT_DoubleIsoTau15_OneLeg_Trk5", 95, 1, 0, 0, ""], 
+["HLT_DoubleIsoTau15_Trk5", 96, 1, 0, 0, ""], 
+["HLT_BTagMu_Jet10U", 97, 1, 0, 0, ""], 
+["HLT_BTagMu_Jet20U", 98, 1, 0, 0, ""], 
+["HLT_StoppedHSCP", 99, 1, 0, 0, ""], 
+["HLT_L2Mu5_Photon9_L1R", 100, 1, 0, 0, ""], 
+["HLT_Mu5_Photon9_Cleaned_L1R", 101, 1, 0, 0, ""], 
+["HLT_ZeroBias", 102, 1, 0, 0, ""], 
+["HLT_ZeroBiasPixel_SingleTrack", 103, 1, 0, 0, ""], 
+["HLT_MinBiasPixel_SingleTrack", 104, 1, 0, 0, ""], 
+["HLT_MultiVertex6", 105, 1, 0, 0, ""], 
+["HLT_MultiVertex8_L1ETT60", 106, 1, 0, 0, ""], 
+["HLT_L1_BptxXOR_BscMinBiasOR", 107, 1, 0, 0, ""], 
+["HLT_L1Tech_BSC_minBias_OR", 108, 1, 0, 0, ""], 
+["HLT_L1Tech_BSC_minBias", 109, 1, 0, 0, ""], 
+["HLT_L1Tech_BSC_halo", 110, 1, 0, 0, ""], 
+["HLT_L1Tech_BSC_halo_forPhysicsBackground", 111, 1, 0, 0, ""], 
+["HLT_L1Tech_BSC_HighMultiplicity", 112, 1, 0, 0, ""], 
+["HLT_L1Tech_RPC_TTU_RBst1_collisions", 113, 1, 0, 0, ""], 
+["HLT_L1Tech_HCAL_HF", 114, 1, 0, 0, ""], 
+["HLT_TrackerCosmics", 115, 1, 0, 0, ""], 
+["HLT_RPCBarrelCosmics", 116, 1, 0, 0, ""], 
+["HLT_IsoTrackHE", 117, 1, 0, 0, ""], 
+["HLT_IsoTrackHB", 118, 1, 0, 0, ""], 
+["HLT_HcalPhiSym", 119, 1, 0, 0, ""], 
+["HLT_HcalNZS", 120, 1, 0, 0, ""], 
+["HLT_PixelTracks_Multiplicity70", 121, 1, 0, 0, ""], 
+["HLT_PixelTracks_Multiplicity85", 122, 1, 0, 0, ""], 
+["HLT_PixelTracks_Multiplicity100", 123, 1, 0, 0, ""], 
+["HLT_GlobalRunHPDNoise", 124, 1, 0, 0, ""], 
+["HLT_TechTrigHCALNoise", 125, 1, 0, 0, ""], 
+["HLT_L1_BPTX", 126, 1, 0, 0, ""], 
+["HLT_L1_BPTX_MinusOnly", 127, 1, 0, 0, ""], 
+["HLT_L1_BPTX_PlusOnly", 128, 1, 0, 0, ""], 
+["HLT_DTErrors", 129, 1, 0, 0, ""], 
+["HLT_LogMonitor", 130, 1, 0, 0, ""], 
+["HLT_Calibration", 131, 1, 0, 0, ""], 
+["HLT_EcalCalibration", 132, 1, 0, 0, ""], 
+["HLT_HcalCalibration", 133, 1, 0, 0, ""], 
+["HLT_Random", 134, 1, 0, 0, ""], 
+["AlCa_EcalPhiSym", 135, 1, 0, 0, ""], 
+["AlCa_EcalPi0", 136, 1, 0, 0, "-83/2 -83/3 "], 
+["AlCa_EcalEta", 137, 1, 0, 0, "-83/2 -83/3 "], 
+["AlCa_RPCMuonNoHits", 138, 1, 0, 0, ""], 
+["AlCa_RPCMuonNoTriggers", 139, 1, 0, 0, ""], 
+["AlCa_RPCMuonNormalisation", 140, 1, 0, 0, ""], 
+["DQM_FEDIntegrity", 141, 1, 0, 0, ""], 
+["DQM_TriggerResults", 142, 1, 1, 0, ""], 
+["HLTriggerFinalPath", 143, 1, 1, 0, ""]
+]
+,
+"TriggerObjects_V1": []
+,
+"Vertices_V1": []
+},
+"Associations": {"CaloClusterRecHitFractions_V1": [[[3,0],[4,0]],[[3,0],[4,1]],[[3,0],[4,2]],[[3,0],[4,3]],[[3,0],[4,4]],[[3,0],[4,5]],[[3,0],[4,6]],[[3,0],[4,7]],[[3,0],[4,8]],[[3,0],[4,9]],[[3,0],[4,10]],[[3,0],[4,11]],[[3,0],[4,12]],[[3,0],[4,13]],[[3,0],[4,14]],[[3,0],[4,15]],[[3,0],[4,16]],[[3,0],[4,17]],[[3,0],[4,18]],[[3,0],[4,19]],[[3,0],[4,20]],[[3,0],[4,21]],[[3,0],[4,22]],[[3,0],[4,23]],[[3,0],[4,24]],[[3,1],[4,25]],[[3,1],[4,26]],[[3,1],[4,27]],[[3,1],[4,28]],[[3,1],[4,29]],[[3,1],[4,30]],[[3,1],[4,31]],[[3,1],[4,32]],[[3,1],[4,33]],[[3,1],[4,34]],[[3,1],[4,35]],[[3,1],[4,36]],[[3,1],[4,37]],[[3,1],[4,38]],[[3,1],[4,39]],[[3,1],[4,40]],[[3,1],[4,41]],[[3,1],[4,42]],[[3,1],[4,43]],[[3,1],[4,44]],[[3,2],[4,45]],[[3,3],[4,46]],[[3,3],[4,47]],[[3,3],[4,48]],[[3,3],[4,49]],[[3,3],[4,50]]],
+"MuonTrackExtras_V1": [],
+"SuperClusterRecHitFractions_V1": [[[22,0],[4,51]],[[22,0],[4,52]],[[22,0],[4,53]],[[22,0],[4,54]],[[22,0],[4,55]],[[22,0],[4,56]],[[22,0],[4,57]],[[22,0],[4,58]],[[22,0],[4,59]],[[22,0],[4,60]],[[22,0],[4,61]],[[22,0],[4,62]],[[22,0],[4,63]],[[22,0],[4,64]],[[22,0],[4,65]],[[22,0],[4,66]],[[22,0],[4,67]],[[22,0],[4,68]],[[22,0],[4,69]],[[22,0],[4,70]],[[22,0],[4,71]],[[22,0],[4,72]],[[22,0],[4,73]],[[22,0],[4,74]],[[22,0],[4,75]],[[22,0],[4,76]],[[22,0],[4,77]],[[22,0],[4,78]],[[22,0],[4,79]],[[22,0],[4,80]],[[22,0],[4,81]],[[22,0],[4,82]],[[22,0],[4,83]],[[22,0],[4,84]],[[22,0],[4,85]],[[22,0],[4,86]],[[22,0],[4,87]],[[22,0],[4,88]],[[22,0],[4,89]],[[22,0],[4,90]],[[22,0],[4,91]],[[22,0],[4,92]],[[22,0],[4,93]],[[22,0],[4,94]],[[22,0],[4,95]],[[22,0],[4,96]],[[22,0],[4,97]],[[22,0],[4,98]],[[22,0],[4,99]],[[22,0],[4,100]],[[22,0],[4,101]]],
+"TrackExtras_V1": [[[23,0],[19,0]],[[23,1],[19,1]],[[23,2],[19,2]],[[23,3],[19,3]],[[23,4],[19,4]],[[23,5],[19,5]],[[23,6],[19,6]],[[23,7],[19,7]],[[23,8],[19,8]],[[23,9],[19,9]],[[23,10],[19,10]],[[23,11],[19,11]],[[23,12],[19,12]],[[23,13],[19,13]],[[23,14],[19,14]],[[23,15],[19,15]],[[23,16],[19,16]]],
+"GsfElectronExtras_V1": [],
+"MuonTrackerExtras_V1": []}
+}
