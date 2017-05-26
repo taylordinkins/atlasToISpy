@@ -1,3 +1,11 @@
+I was fortunate to participate in the Summer 2016 CERN undergraduate internship program, through the CSU system.
+
+Much of my experience consisted of exposure to introductory Particle Physics concepts, as well as the project I began under the direction of Dr. Dan Guest.
+
+This project seeks to make data gathered from the ATLAS detector compatible with the event display iSpy. 
+
+Data from ATLAS is retrieved either in .ROOT files (a C++ framework), or preferably in XML format formerly used for the Atlantis display. CMS data is in a friendly JSON format (grammar found at the link below)
+
 Thanks to CMS for providing the event display iSpy. 
 
 iSpy is ran in browser using WebGL, and all information is found here:
