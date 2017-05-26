@@ -1,3 +1,10 @@
+Thanks to CMS for providing the event display iSpy. 
+
+iSpy is ran in browser using WebGL, and all information is found here:
+https://cms-outreach.github.io/ispy/
+
+For my additions:
+
 1. Scripts will be ran from same directory as files (XML or JSON) - python [scriptname].py
 
 2. iSpy will read converted JSON data from a .zip which must have the format: 
@@ -8,7 +15,7 @@
 	
 4. Actual calorimeters will need to be hardcoded into a JSON format to be drawn using 8 corners method
 	Subsequently, energy data from XML file will scale the distance of calos
-	ID data from XML file will "activate" which hardcoded calos are displayed
+	ID data from XML file will "activate" which hardcoded calos are displayed (incomplete as of May, 2017)
 
 5. Calorimeter objects for Atlas may need to be added into the 'objects-config.js'
 
